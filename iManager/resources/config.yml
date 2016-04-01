@@ -1,0 +1,13 @@
+#Configuration file for iManager v1.2.0
+exemptStatus: true
+#Set to true to enable checking of exempt status when executing certain plugin features
+ipWhitelist: false
+#Set to true to enable address whitelisting, players whose IP address doesn't exist in ip.txt will not be able to join
+chat:
+ save: true
+ #Set to true to enable saving chat messages to chat.log
+command:
+ log: true
+ #Set to true to enable command logging, shows the console what command a player runs
+ save: true
+ #Set to true to enable saving commands run by players to commands.log

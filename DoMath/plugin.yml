@@ -1,0 +1,17 @@
+name: DoMath
+main: domath\DoMath
+version: 1.0.0
+api: 1.10.0
+load: STARTUP
+author: Gamecrafter
+description: Forget mental math, use a calculator!
+website: https://github.com/NebulaLabs/PocketMine-Plugins/tree/master/DoMath
+permissions:
+ domath:
+  default: true
+  children:
+   domath.command:
+    default: true
+    children:
+     domath.command.domath:
+      default: true

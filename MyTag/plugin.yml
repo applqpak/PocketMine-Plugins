@@ -1,0 +1,17 @@
+name: MyTag
+main: mytag\MyTag
+version: 1.2.0
+api: 1.10.0
+load: POSTWORLD
+author: Gamecrafter
+description: Players get to control what is on their name tag!
+website: https://github.com/NebulaLabs/PocketMine-Plugins/tree/master/MyTag
+permissions:
+ mytag:
+  default: op
+  children:
+   mytag.command:
+    default: op
+    children:
+     mytag.command.mytag:
+      default: op

@@ -1,0 +1,17 @@
+name: PHPUtils
+main: phputils\PHPUtils
+version: 1.2.0
+api: 1.10.0
+load: STARTUP
+author: Gamecrafter
+description: A miscellaneous collection of tools for plugin developers!
+website: https://github.com/NebulaLabs/PocketMine-Plugins/tree/master/PHPUtils
+permissions:
+ phputils:
+  default: op
+  children:
+   phputils.command:
+    default: op
+    children:
+     phputils.command.phputils:
+      default: op

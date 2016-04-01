@@ -1,0 +1,17 @@
+name: RapidCMD
+main: rapidcmd\RapidCMD
+version: 1.0.0
+api: 1.10.0
+load: STARTUP
+author: Gamecrafter
+description: Easily create and manage your own commands!
+website: https://github.com/NebulaLabs/PocketMine-Plugins/tree/master/RapidCMD
+permissions:
+ rapidcmd:
+  default: op
+  children:
+   rapidcmd.command:
+    default: op
+    children:
+     rapidcmd.command.rapidcmd:
+      default: op

@@ -1,0 +1,15 @@
+#Configuration file for RapidCMD v1.0.0
+commands:
+ example:
+  name: "example"
+  #Sets the command name
+  description: "This is an example command to show you how it works"
+  #Sets the command description
+  usage: "/example"
+  #Sets the command usage message
+  aliases: 
+  - "e"
+  - "ex"
+  #Sets the command aliases
+  actions: []
+  #Sets the actions that will be executed upon execution

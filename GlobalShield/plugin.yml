@@ -1,0 +1,17 @@
+name: GlobalShield
+main: globalshield\GlobalShield
+version: 1.1.0
+api: 1.10.0
+load: POSTWORLD
+author: Gamecrafter
+description: Shield all of your worlds from griefers!
+website: https://github.com/NebulaLabs/PocketMine-Plugins/tree/master/GlobalShield
+permissions:
+ globalshield:
+  default: op
+  children:
+   globalshield.action:
+    default: op
+    children:
+     globalshield.action.bypass:
+      default: op

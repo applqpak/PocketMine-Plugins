@@ -1,0 +1,3 @@
+#Configuration file for DoMath v1.0.0
+failMessage: "§cFailed to calculate due to insufficient parameters provided."
+#Sets the message that will be sent upon failed calculation

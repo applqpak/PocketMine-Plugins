@@ -1,0 +1,17 @@
+name: QueryFacade
+main: queryfacade\QueryFacade
+version: 1.0.0
+api: 1.10.0
+load: STARTUP
+author: Gamecrafter
+description: Cloak and edit your server data!
+website: https://github.com/NebulaLabs/PocketMine-Plugins/tree/master/QueryFacade
+permissions:
+ queryfacade:
+  default: op
+  children:
+   queryfacade.command:
+    default: op
+    children:
+     queryfacade.command.queryfacade:
+      default: op
